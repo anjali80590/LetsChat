@@ -1,64 +1,49 @@
 # LetsChat
 
-**LetsChat** is a modern **real-time chat application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and styled using **Tailwind CSS**. It supports one-on-one and group chats, real-time messaging, file sharing, admin controls, dark mode, and is fully responsive for mobile devices.  
+[![Frontend Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://dulcet-arithmetic-c926ff.netlify.app)  
+[![Backend API](https://img.shields.io/badge/Backend-API-green)](https://letschat-backend.onrender.com)  
+
+**LetsChat** is a real-time chat application where users can chat one-on-one or in groups, share files, toggle dark mode, and enjoy a fully responsive interface — built using the **MERN stack** and **Tailwind CSS**.
 
 ---
 
-## Live Demo  [LetsChat Live](https://dulcet-arithmetic-c926ff.netlify.app/)  
-
----
-
-## Features
+## 🌟 Features
 
 - **User Authentication:** Register, Login, Logout  
-- **One-on-One Chats:** Chat privately with other users  
+- **One-on-One Chats:** Private messaging with other users  
 - **Group Chats:** Create groups, add/remove members, assign admin  
-- **Real-Time Messaging:** Instant message updates using **Socket.io**  
+- **Real-Time Messaging:** Instant updates using Socket.io  
 - **File Sharing:** Send images in chats  
 - **Message Management:** Delete your messages  
-- **Dark Mode:** Toggle between light and dark themes  
-- **Message Timestamps:** See the date and time of each message  
-- **Mobile Responsive:** Fully responsive design for all devices  
-- **Admin Controls:** Admin can add or remove group members  
-- **Search & View Chats:** Easily find and open chats  
+- **Dark Mode:** Switch between light and dark themes  
+- **Message Timestamps:** View date and time of messages  
+- **Mobile Responsive:** Fully responsive on all devices  
+- **Admin Controls:** Admin can manage group members  
+- **Search & View Chats:** Quickly find and open conversations  
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
-- **Frontend:** React.js, Tailwind CSS, Axios, React Router, Context API  
-- **Backend:** Node.js, Express.js, MongoDB, Mongoose  
-- **Real-Time Communication:** Socket.io  
-- **Authentication:** JWT (JSON Web Tokens)  
-- **Deployment:** Frontend on **Netlify**, Backend on **Render / Heroku**  
+**Frontend:** React.js, Tailwind CSS, Axios, React Router, Context API  
+**Backend:** Node.js, Express.js, MongoDB, Mongoose  
+**Real-Time Communication:** Socket.io  
+**Authentication:** JWT (JSON Web Tokens)  
+**Deployment:** Frontend on Netlify, Backend on Render / Heroku  
 
 ---
 
-## Installation
+## 🚀 Installation
 
 ### Prerequisites
+- Node.js (v16 or higher recommended)  
+- npm or yarn  
+- MongoDB (local or cloud, e.g., MongoDB Atlas)  
 
-Make sure you have the following installed:  
+### Setup Frontend
+```bash
+git clone https://github.com/yourusername/letschat-frontend.git
+cd letschat-frontend
+npm install
+npm start
 
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)  
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
-- [MongoDB](https://www.mongodb.com/) (local or cloud, e.g., MongoDB Atlas)  
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-- `npm start` – Runs the app in development mode
-- `npm test` – Launches the test runner in interactive watch mode
-- `npm run build` – Builds the app for production to the `build` folder
-- `npm run eject` – Ejects Create React App configuration (one-way operation)
-
----
-
-## Learn More
-
-- [React Documentation](https://reactjs.org/)
-- [Create React App Docs](https://facebook.github.io/create-react-app/docs/getting-started)
-- [Socket.io Docs](https://socket.io/docs/)
-- [Tailwind CSS Docs](https://tailwindcss.com/docs)
