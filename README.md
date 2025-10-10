@@ -1,9 +1,14 @@
 # LetsChat
 
-[![Frontend Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://dulcet-arithmetic-c926ff.netlify.app)  
-[![Backend API](https://img.shields.io/badge/Backend-API-green)](https://letschat-backend.onrender.com)  
-
 **LetsChat** is a real-time chat application where users can chat one-on-one or in groups, share files, toggle dark mode, and enjoy a fully responsive interface — built using the **MERN stack** and **Tailwind CSS**.
+
+---
+
+## Live Links
+
+- **Frontend Live:** [https://dulcet-arithmetic-c926ff.netlify.app](https://dulcet-arithmetic-c926ff.netlify.app)  
+- **Backend Live:** [https://letschat-backend.onrender.com](https://letschat-backend.onrender.com)
+
 
 ---
 
